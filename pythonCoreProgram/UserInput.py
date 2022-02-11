@@ -1,7 +1,5 @@
-
 import re
-
-userName = input('Enter your name: ')
+userName = input('Enter your UserName: ')
 string = " Hello " +userName+ ", How are you?" 
 newUserName = input("enter new UserName:")
 newString = string.replace(userName,newUserName)
